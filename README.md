@@ -11,6 +11,7 @@ pinned: false
 # AI-Powered Handwritten Prescription Digitization & Clinical Healthcare Intelligence
 
 [![Docker Image](https://img.shields.io/badge/Docker%20Hub-ali5252%2Fai--prescription--digitizer-2496ED?style=flat&logo=docker&logoColor=white)](https://hub.docker.com/r/ali5252/ai-prescription-digitizer)
+[![Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-DRAP%20Dataset-FFD21E)](https://huggingface.co/datasets/ali-muhammad-younis/pakistan-drap-medicine-formulary)
 [![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white)](https://github.com/alimuhammadyounis5252-lang/ai-prescription-digitizer)
 [![Standard](https://img.shields.io/badge/HL7%20FHIR-v4.0.1%20Compliant-E04E39)](https://hl7.org/fhir/R4/)
 [![Validation](https://img.shields.io/badge/Formulary-1%2C055%20DRAP%20Entries-008080)](https://www.dra.gov.pk/)
