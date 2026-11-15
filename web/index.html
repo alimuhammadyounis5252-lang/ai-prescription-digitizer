@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Prescription Digitizer</title>
+<link rel="stylesheet" href="/static/style.css?v=2.3">
+</head>
+<body>
+<header>
+  <div><h1>AI Prescription Digitizer</h1><div class="sub">Handwritten prescription to structured record, with pharmacist review</div></div>
+  <nav class="tabs">
+    <button class="tab on" id="tabNew" type="button">New prescription</button>
+    <button class="tab" id="tabRecords" type="button">Approved records</button>
+  </nav>
+  <span id="modelPill" class="pill">checking model...</span>
+</header>
+<div class="notice">Assistive tool. Every row must be checked against the original prescription by a pharmacist before use. The system does not prescribe, diagnose or change doses.</div>
+
+<main id="viewNew">
+  <section id="left" class="card">
+    <h2>1. Prescription photo</h2>
+    <div id="drop" class="drop">
+      Drop a photo here, or
+      <div class="row">
+        <button class="btn" id="pickBtn" type="button">Choose file</button>
+        <button class="btn ghost" id="camBtn" type="button">Use camera</button>
+      </div>
+      <input id="fileInput" type="file" accept="image/*" class="hidden">
+      <input id="camInput" type="file" accept="image/*" capture="environment" class="hidden">
+    </div>
+    <div id="qualityBox"></div>
+    <div class="previewWrap"><img id="preview" alt="Uploaded prescription"></div>
+    <small class="muted" id="previewHint"></small>
+  </section>
+
+  <section class="card">
+    <h2>2. Extracted medicines (review and correct)</h2>
+    <div id="status"><div class="msg info">Upload a prescription photo to begin.</div></div>
+    <div id="secondBox"></div>
+    <div id="otherBox"></div>
+    <div id="meds"></div>
+    <div id="actions" class="hidden">
+      <button class="btn ghost small" id="addBtn" type="button">+ Add medicine</button>
+      <div class="approve">
+        <label for="pharmacist"><b>3. Pharmacist</b></label>
+        <input type="text" id="pharmacist" placeholder="Full name" autocomplete="off">
+        <button class="btn" id="approveBtn" type="button">Approve &amp; lock</button>
+        <button class="btn ghost" id="exportBtn" type="button" disabled>Export JSON</button>
+        <button class="btn ghost" id="fhirBtn" type="button" disabled>Export FHIR</button>
+        <button class="btn ghost" id="shareBtn" type="button" disabled>Share Urdu instructions</button>
+        <button class="btn ghost" id="printBtn" type="button" disabled>Print</button>
+      </div>
+      <div id="approveMsg"></div>
+    </div>
+  </section>
+</main>
+
+<div id="viewRecords" class="single hidden">
+  <section class="card" id="recordsList">
+    <h2>Approved records</h2>
+    <div id="statsBox" class="stats"></div>
+    <div id="recordsTable"></div>
+  </section>
+  <section class="card hidden mt" id="recordDetail"></section>
+</div>
+
+<script src="/static/app.js?v=2.4"></script>
+</body>
+</html>

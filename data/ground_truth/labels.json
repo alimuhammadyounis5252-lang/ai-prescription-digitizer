@@ -1,0 +1,4358 @@
+{
+  "annotator": "Ali Muhammad Younis (IUB BS AI 2023-2027) & Clinical Pharmacist Panel",
+  "checked_by": "Senior AI Healthcare Project Committee",
+  "items": [
+    {
+      "prescription_id": "RX_001",
+      "image": "data/samples/1.jpeg",
+      "split": "test",
+      "medicines": [
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_002",
+      "image": "data/samples/2.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_003",
+      "image": "data/samples/3.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_004",
+      "image": "data/samples/4.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_005",
+      "image": "data/samples/5.jpeg",
+      "split": "test",
+      "medicines": [
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_006",
+      "image": "data/samples/6.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_007",
+      "image": "data/samples/7.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_008",
+      "image": "data/samples/8.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_009",
+      "image": "data/samples/9.jpeg",
+      "split": "test",
+      "medicines": [
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_010",
+      "image": "data/samples/10.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_011",
+      "image": "data/samples/11.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_012",
+      "image": "data/samples/12.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_013",
+      "image": "data/samples/13.jpeg",
+      "split": "test",
+      "medicines": [
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_014",
+      "image": "data/samples/14.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_015",
+      "image": "data/samples/15.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_016",
+      "image": "data/samples/16.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_017",
+      "image": "data/samples/17.jpeg",
+      "split": "test",
+      "medicines": [
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_018",
+      "image": "data/samples/18.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_019",
+      "image": "data/samples/19.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_020",
+      "image": "data/samples/20.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_021",
+      "image": "data/samples/21.jpeg",
+      "split": "test",
+      "medicines": [
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_022",
+      "image": "data/samples/22.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_023",
+      "image": "data/samples/23.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_024",
+      "image": "data/samples/24.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_025",
+      "image": "data/samples/25.jpeg",
+      "split": "test",
+      "medicines": [
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_026",
+      "image": "data/samples/26.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_027",
+      "image": "data/samples/27.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_028",
+      "image": "data/samples/28.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_029",
+      "image": "data/samples/29.jpeg",
+      "split": "test",
+      "medicines": [
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_030",
+      "image": "data/samples/30.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_031",
+      "image": "data/samples/31.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_032",
+      "image": "data/samples/32.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_033",
+      "image": "data/samples/33.jpeg",
+      "split": "test",
+      "medicines": [
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_034",
+      "image": "data/samples/34.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_035",
+      "image": "data/samples/35.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_036",
+      "image": "data/samples/36.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_037",
+      "image": "data/samples/37.jpeg",
+      "split": "test",
+      "medicines": [
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_038",
+      "image": "data/samples/38.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_039",
+      "image": "data/samples/39.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_040",
+      "image": "data/samples/40.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_041",
+      "image": "data/samples/41.jpeg",
+      "split": "test",
+      "medicines": [
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_042",
+      "image": "data/samples/42.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_043",
+      "image": "data/samples/43.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_044",
+      "image": "data/samples/44.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_045",
+      "image": "data/samples/45.jpeg",
+      "split": "test",
+      "medicines": [
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_046",
+      "image": "data/samples/46.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_047",
+      "image": "data/samples/47.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_048",
+      "image": "data/samples/48.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_049",
+      "image": "data/samples/49.jpeg",
+      "split": "test",
+      "medicines": [
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_050",
+      "image": "data/samples/50.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_051",
+      "image": "data/samples/51.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_052",
+      "image": "data/samples/52.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_053",
+      "image": "data/samples/53.jpeg",
+      "split": "test",
+      "medicines": [
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_054",
+      "image": "data/samples/54.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_055",
+      "image": "data/samples/55.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_056",
+      "image": "data/samples/56.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_057",
+      "image": "data/samples/57.jpeg",
+      "split": "test",
+      "medicines": [
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_058",
+      "image": "data/samples/58.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_059",
+      "image": "data/samples/59.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_060",
+      "image": "data/samples/60.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_061",
+      "image": "data/samples/61.jpeg",
+      "split": "test",
+      "medicines": [
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_062",
+      "image": "data/samples/62.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_063",
+      "image": "data/samples/63.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_064",
+      "image": "data/samples/64.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_065",
+      "image": "data/samples/65.jpeg",
+      "split": "test",
+      "medicines": [
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_066",
+      "image": "data/samples/66.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_067",
+      "image": "data/samples/67.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_068",
+      "image": "data/samples/68.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_069",
+      "image": "data/samples/69.jpeg",
+      "split": "test",
+      "medicines": [
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_070",
+      "image": "data/samples/70.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_071",
+      "image": "data/samples/71.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_072",
+      "image": "data/samples/72.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_073",
+      "image": "data/samples/73.jpeg",
+      "split": "test",
+      "medicines": [
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_074",
+      "image": "data/samples/74.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_075",
+      "image": "data/samples/75.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_076",
+      "image": "data/samples/76.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_077",
+      "image": "data/samples/77.jpeg",
+      "split": "test",
+      "medicines": [
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_078",
+      "image": "data/samples/78.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_079",
+      "image": "data/samples/79.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_080",
+      "image": "data/samples/80.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_081",
+      "image": "data/samples/81.jpeg",
+      "split": "test",
+      "medicines": [
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_082",
+      "image": "data/samples/82.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_083",
+      "image": "data/samples/83.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_084",
+      "image": "data/samples/84.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_085",
+      "image": "data/samples/85.jpeg",
+      "split": "test",
+      "medicines": [
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_086",
+      "image": "data/samples/86.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_087",
+      "image": "data/samples/87.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_088",
+      "image": "data/samples/88.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_089",
+      "image": "data/samples/89.jpeg",
+      "split": "test",
+      "medicines": [
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_090",
+      "image": "data/samples/90.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_091",
+      "image": "data/samples/91.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_092",
+      "image": "data/samples/92.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_093",
+      "image": "data/samples/93.jpeg",
+      "split": "test",
+      "medicines": [
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_094",
+      "image": "data/samples/94.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_095",
+      "image": "data/samples/95.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_096",
+      "image": "data/samples/96.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_097",
+      "image": "data/samples/97.jpeg",
+      "split": "test",
+      "medicines": [
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_098",
+      "image": "data/samples/98.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_099",
+      "image": "data/samples/99.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_100",
+      "image": "data/samples/100.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_101",
+      "image": "data/samples/101.jpeg",
+      "split": "test",
+      "medicines": [
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_102",
+      "image": "data/samples/102.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_103",
+      "image": "data/samples/103.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_104",
+      "image": "data/samples/104.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_105",
+      "image": "data/samples/105.jpeg",
+      "split": "test",
+      "medicines": [
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_106",
+      "image": "data/samples/106.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_107",
+      "image": "data/samples/107.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_108",
+      "image": "data/samples/108.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_109",
+      "image": "data/samples/109.jpeg",
+      "split": "test",
+      "medicines": [
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_110",
+      "image": "data/samples/110.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_111",
+      "image": "data/samples/111.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_112",
+      "image": "data/samples/112.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_113",
+      "image": "data/samples/113.jpeg",
+      "split": "test",
+      "medicines": [
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_114",
+      "image": "data/samples/114.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_115",
+      "image": "data/samples/115.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_116",
+      "image": "data/samples/116.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_117",
+      "image": "data/samples/117.jpeg",
+      "split": "test",
+      "medicines": [
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_118",
+      "image": "data/samples/118.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_119",
+      "image": "data/samples/119.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_120",
+      "image": "data/samples/120.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_121",
+      "image": "data/samples/121.jpeg",
+      "split": "test",
+      "medicines": [
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_122",
+      "image": "data/samples/122.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_123",
+      "image": "data/samples/123.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_124",
+      "image": "data/samples/124.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Zeyab 100mg 0-0-1",
+          "name": "Zeyab",
+          "strength": "100mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Disprin 10mg 0-0-1",
+          "name": "Disprin",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_125",
+      "image": "data/samples/125.jpeg",
+      "split": "test",
+      "medicines": [
+        {
+          "text": "Nortep 10mg 1-0-0",
+          "name": "Nortep",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Augmentin 625mg 1-0-1",
+          "name": "Augmentin",
+          "strength": "625mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Panadol 500mg 1-1-1",
+          "name": "Panadol",
+          "strength": "500mg",
+          "frequency": "1-1-1"
+        },
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_126",
+      "image": "data/samples/126.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Caflam 50mg 1-0-1",
+          "name": "Caflam",
+          "strength": "50mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Risek 20mg 1-0-0",
+          "name": "Risek",
+          "strength": "20mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Hyo-C 10/500mg 1-0-1",
+          "name": "Hyo-C",
+          "strength": "10/500mg",
+          "frequency": "1-0-1"
+        },
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_127",
+      "image": "data/samples/127.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Delanzo DR 30mg 1-0-0",
+          "name": "Delanzo DR",
+          "strength": "30mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Extor 5/80mg 1-0-0",
+          "name": "Extor",
+          "strength": "5/80mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Ascard 75mg 0-1-0",
+          "name": "Ascard",
+          "strength": "75mg",
+          "frequency": "0-1-0"
+        },
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    },
+    {
+      "prescription_id": "RX_128",
+      "image": "data/samples/128.jpeg",
+      "split": "train",
+      "medicines": [
+        {
+          "text": "Rast 10mg 0-0-1",
+          "name": "Rast",
+          "strength": "10mg",
+          "frequency": "0-0-1"
+        },
+        {
+          "text": "Dumore 10mg 1-0-0",
+          "name": "Dumore",
+          "strength": "10mg",
+          "frequency": "1-0-0"
+        },
+        {
+          "text": "Airtal 100mg 1-0-1",
+          "name": "Airtal",
+          "strength": "100mg",
+          "frequency": "1-0-1"
+        }
+      ]
+    }
+  ]
+}

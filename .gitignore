@@ -1,0 +1,18 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Patient data and runtime storage (never committed)
+uploads/
+records/
+data/samples/
+cloudflared.exe
+
+# Internal developer notes and private viva preparation (not for public repo)
+docs/VIVA_GUIDE.md
+docs/AUDIT_SUMMARY.md
+AGLE_STEPS.md
+reports/eval-*
+archive/

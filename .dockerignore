@@ -1,0 +1,10 @@
+.env
+.venv
+records
+uploads
+archive
+data/samples
+data/ground_truth/labels.json
+reports
+tests
+__pycache__

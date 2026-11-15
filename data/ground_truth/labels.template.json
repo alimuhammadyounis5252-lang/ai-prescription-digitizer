@@ -1,0 +1,15 @@
+{
+  "_how_to": "Copy this file to labels.json. Type ONLY what is written on each photo. Leave a field empty when it is not written. Mark about one quarter of the images as split 'test' and never look at model output for them before evaluating.",
+  "annotator": "",
+  "checked_by": "",
+  "items": [
+    {
+      "example": true,
+      "image": "data/samples/EXAMPLE_ONLY.jpg",
+      "split": "test",
+      "medicines": [
+        {"text": "Tab Abc 500mg 1+0+1", "name": "Abc", "strength": "500mg", "frequency": "1+0+1"}
+      ]
+    }
+  ]
+}
