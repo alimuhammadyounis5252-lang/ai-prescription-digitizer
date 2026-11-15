@@ -10,6 +10,12 @@ pinned: false
 
 # AI-Powered Handwritten Prescription Digitization & Clinical Healthcare Intelligence
 
+[![Docker Image](https://img.shields.io/badge/Docker%20Hub-ali5252%2Fai--prescription--digitizer-2496ED?style=flat&logo=docker&logoColor=white)](https://hub.docker.com/r/ali5252/ai-prescription-digitizer)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github&logoColor=white)](https://github.com/alimuhammadyounis5252-lang/ai-prescription-digitizer)
+[![Standard](https://img.shields.io/badge/HL7%20FHIR-v4.0.1%20Compliant-E04E39)](https://hl7.org/fhir/R4/)
+[![Validation](https://img.shields.io/badge/Formulary-1%2C055%20DRAP%20Entries-008080)](https://www.dra.gov.pk/)
+[![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
+
 An assistive clinical intelligence system that transcribes handwritten doctor prescriptions using multimodal vision-language models, normalizes medications against the national Drug Regulatory Authority of Pakistan (DRAP) formulary, separates diagnostic lab tests, generates natural conversational Urdu dosage speech for rural patient accessibility, and exports HL7 FHIR-compliant electronic health records under mandatory Human-in-the-Loop pharmacist validation.
 
 > **BS Artificial Intelligence Final Year Project (Session 2023–2027)**  
@@ -78,7 +84,7 @@ $$F_2 = \frac{5 \cdot \text{Precision} \cdot \text{Recall}}{4 \cdot \text{Precis
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/alimuhammadyounis/ai-prescription-digitizer.git
+   git clone https://github.com/alimuhammadyounis5252-lang/ai-prescription-digitizer.git
    cd ai-prescription-digitizer
    ```
 
@@ -113,16 +119,31 @@ $$F_2 = \frac{5 \cdot \text{Precision} \cdot \text{Recall}}{4 \cdot \text{Precis
 
 ## 5. Docker Deployment
 
-The application is fully containerized and compatible with Linux servers, cloud providers, and container runtimes:
+The application is fully containerized and published on [Docker Hub](https://hub.docker.com/r/ali5252/ai-prescription-digitizer). It can be pulled and executed on any Linux/Windows server, cloud VM, or container cluster with zero manual environment configuration:
 
+### Pull & Run from Docker Hub:
 ```bash
-# Build the container
-docker build -t rx-digitizer .
+# Pull the prebuilt production image
+docker pull ali5252/ai-prescription-digitizer:latest
 
-# Run container with volume persistence
-docker run -d --name rx-digitizer -p 7860:7860 --env-file .env -v rx-records:/app/records rx-digitizer
+# Run the container with volume persistence and environment credentials
+docker run -d \
+  --name rx-digitizer \
+  -p 7860:7860 \
+  -e VLM_API_KEY="your_groq_api_key_here" \
+  -v rx-records:/app/records \
+  ali5252/ai-prescription-digitizer:latest
 ```
-Access the application on port `7860`.
+
+### Build Locally (Optional):
+```bash
+# Build the container locally
+docker build -t ali5252/ai-prescription-digitizer:latest .
+
+# Run container
+docker run -d --name rx-digitizer -p 7860:7860 --env-file .env -v rx-records:/app/records ali5252/ai-prescription-digitizer:latest
+```
+Access the application dashboard at `http://localhost:7860`.
 
 ---
 
